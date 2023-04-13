@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -484,6 +485,15 @@ fun IconSelector(
                     .size(40.dp)
                     .align(Alignment.Center)
                     .background(shape = CircleShape, color = service.labelBackgroundColor.toColor(Tint.LightBlue))
+            )
+
+            Box(
+                modifier = Modifier
+                    .width(28.dp)
+                    .height(20.dp)
+                    .clip(TwTheme.shape.roundedDefault)
+                    .background(TwTheme.color.background)
+                    .align(Alignment.Center),
             )
 
             Text(

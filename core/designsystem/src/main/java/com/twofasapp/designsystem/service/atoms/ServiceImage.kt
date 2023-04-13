@@ -51,8 +51,8 @@ internal fun ServiceImage(
                 ) {
                     Box(
                         modifier = Modifier
-                            .width(dimens.imageSize.div(1.4f))
-                            .height(dimens.imageSize.div(1.9f))
+                            .width(dimens.labelPillWidth)
+                            .height(dimens.labelPillHeight)
                             .clip(TwTheme.shape.roundedDefault)
                             .background(TwTheme.color.background),
                     )

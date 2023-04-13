@@ -31,7 +31,7 @@ internal object ServiceTextDefaults {
         nameTextStyle = TwTheme.typo.body3.copy(fontWeight = FontWeight.Medium),
         infoTextStyle = TwTheme.typo.body4.copy(fontWeight = FontWeight.Normal),
         codeTextStyle = TwTheme.typo.codeExtraLight,
-        imageLabelTextStyle = TwTheme.typo.body4.copy(fontWeight = FontWeight.Bold),
+        imageLabelTextStyle = TwTheme.typo.body3.copy(fontWeight = FontWeight.Bold),
         timerTextStyle = TwTheme.typo.caption,
     )
 
@@ -40,7 +40,7 @@ internal object ServiceTextDefaults {
         nameTextStyle = TwTheme.typo.caption.copy(fontWeight = FontWeight.Medium),
         infoTextStyle = TwTheme.typo.caption.copy(fontWeight = FontWeight.Normal),
         codeTextStyle = TwTheme.typo.codeLightSmall,
-        imageLabelTextStyle = TwTheme.typo.body4.copy(fontWeight = FontWeight.Bold, fontSize = 10.sp),
+        imageLabelTextStyle = TwTheme.typo.body3.copy(fontWeight = FontWeight.Bold, fontSize = 12.sp),
         timerTextStyle = TwTheme.typo.caption.copy(fontSize = 11.sp),
     )
 
@@ -49,7 +49,7 @@ internal object ServiceTextDefaults {
         nameTextStyle = TwTheme.typo.title.copy(fontWeight = FontWeight.Normal),
         infoTextStyle = TwTheme.typo.body1.copy(fontWeight = FontWeight.Normal),
         codeTextStyle = TwTheme.typo.codeExtraLight,
-        imageLabelTextStyle = TwTheme.typo.body4.copy(fontWeight = FontWeight.Bold),
+        imageLabelTextStyle = TwTheme.typo.body3.copy(fontWeight = FontWeight.Bold),
         timerTextStyle = TwTheme.typo.caption,
     )
 }
@@ -60,8 +60,8 @@ internal object ServiceDimensDefaults {
         cellHeight = 130.dp,
         cellHeightInEdit = 64.dp,
         imageSize = 36.dp,
-        labelPillHeight = 16.dp,
-        labelPillWidth = 18.dp,
+        labelPillHeight = 18.dp,
+        labelPillWidth = 27.dp,
         timerSize = 32.dp,
     )
 
@@ -70,8 +70,8 @@ internal object ServiceDimensDefaults {
         cellHeight = 80.dp,
         cellHeightInEdit = 64.dp,
         imageSize = 32.dp,
-        labelPillHeight = 12.dp,
-        labelPillWidth = 18.dp,
+        labelPillHeight = 17.dp,
+        labelPillWidth = 23.dp,
         timerSize = 28.dp,
     )
 }
